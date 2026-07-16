@@ -19,6 +19,12 @@ module tb_datatype_init;
       $display("4 State bus is uninitialized as expected!!");
       
     end
+
+    else begin 
+
+      $display("4 State bus is not uninitialized to X!");
+
+    end
     
     $display("#--- Simulation Complete ---");
     
